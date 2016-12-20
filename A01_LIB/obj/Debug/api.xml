@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="aclasdriver">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AclasLcd0" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="AclasLcd0" static="false" type="aclasdriver.AclasLcd0" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="GetHeight" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="GetWidth" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="SetBacklight" native="true" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="SetContrast" native="true" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="WriteBitMap" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.Bitmap">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="WriteDotMatrix" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="close" native="true" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="writeMsg" native="true" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SerialPort" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SerialPort" static="false" type="aclasdriver.SerialPort" visibility="public">
+<parameter name="p0" type="java.io.File">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="close" native="true" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getInputStream" native="false" return="java.io.InputStream" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOutputStream" native="false" return="java.io.OutputStream" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="true" return="java.io.FileDescriptor" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="TAG" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;SerialPort&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mFd" static="false" transient="false" type="java.io.FileDescriptor" type-generic-aware="java.io.FileDescriptor" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mFileInputStream" static="false" transient="false" type="java.io.FileInputStream" type-generic-aware="java.io.FileInputStream" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mFileOutputStream" static="false" transient="false" type="java.io.FileOutputStream" type-generic-aware="java.io.FileOutputStream" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SmartCard" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SmartCard" static="false" type="aclasdriver.SmartCard" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="ApduCommand" native="true" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="byte[]">
+</parameter>
+<parameter name="p6" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Close" native="true" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="GetATR" native="true" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="GetChallenge8" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="GetResponse" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="GetState" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="IsCardRemoved" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Open" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Pread" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Pwrite" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="ReadBinary_CUR" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte">
+</parameter>
+<parameter name="p2" type="byte">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="SelectFile" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="SendCommand" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+<parameter name="p2" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="SetCardType" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="TestCardReady" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="VerifyPIN" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte">
+</parameter>
+<parameter name="p2" type="byte[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UsbRfid" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="UsbRfid" static="false" type="aclasdriver.UsbRfid" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="close" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="read" native="true" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="write" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="aclasHdqApi" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="aclasHdqApi" static="false" type="aclasdriver.aclasHdqApi" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="beep" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="close" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="read" native="true" return="byte[]" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="aclasMagcardApi" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="aclasMagcardApi" static="false" type="aclasdriver.aclasMagcardApi" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="beep" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="close" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="read" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="drawer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="drawer" static="false" type="aclasdriver.drawer" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="km3_printer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="km3_printer" static="false" type="aclasdriver.km3_printer" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="beep" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="close" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="read" native="true" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readstatus" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="write" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="printer" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="printer" static="false" type="aclasdriver.printer" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="Close" native="true" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Conitnue" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Feed" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="GetDotWidth" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="IsPaperExist" native="true" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Open" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Read" native="true" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="SetContrast" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="SetPrintMode" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Stop" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="Write" native="true" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="rfid" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="rfid" static="false" type="aclasdriver.rfid" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="AuthKey" native="true" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="ReadCardBlock" native="true" return="byte[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="ReadCardNo" native="true" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="SetCardPsw" native="true" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="WriteCardBlock" native="true" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="beep" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="close" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="open" native="true" return="int" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+<package name="com.TFHKA.a01_demo">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.TFHKA.a01_demo.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="true" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R" static="false" type="com.TFHKA.a01_demo.R" visibility="public">
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.anim" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.anim" static="false" type="com.TFHKA.a01_demo.R.anim" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="slide_left_in" static="true" transient="false" type="int" type-generic-aware="int" value="2130968576" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="slide_left_out" static="true" transient="false" type="int" type-generic-aware="int" value="2130968577" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="slide_right_in" static="true" transient="false" type="int" type-generic-aware="int" value="2130968578" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="slide_right_out" static="true" transient="false" type="int" type-generic-aware="int" value="2130968579" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.array" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.array" static="false" type="com.TFHKA.a01_demo.R.array" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="DotModePic" static="true" transient="false" type="int" type-generic-aware="int" value="2131165184" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SerialBoudRate" static="true" transient="false" type="int" type-generic-aware="int" value="2131165186" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SerialNum" static="true" transient="false" type="int" type-generic-aware="int" value="2131165185" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.attr" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.attr" static="false" type="com.TFHKA.a01_demo.R.attr" visibility="public">
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.dimen" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.dimen" static="false" type="com.TFHKA.a01_demo.R.dimen" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="activity_horizontal_margin" static="true" transient="false" type="int" type-generic-aware="int" value="2131034112" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="activity_vertical_margin" static="true" transient="false" type="int" type-generic-aware="int" value="2131034113" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.drawable" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.drawable" static="false" type="com.TFHKA.a01_demo.R.drawable" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="android_man" static="true" transient="false" type="int" type-generic-aware="int" value="2130837504" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="ic_launcher" static="true" transient="false" type="int" type-generic-aware="int" value="2130837505" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="lcd" static="true" transient="false" type="int" type-generic-aware="int" value="2130837506" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="logo" static="true" transient="false" type="int" type-generic-aware="int" value="2130837507" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="magcard" static="true" transient="false" type="int" type-generic-aware="int" value="2130837508" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="pow" static="true" transient="false" type="int" type-generic-aware="int" value="2130837509" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="printpng" static="true" transient="false" type="int" type-generic-aware="int" value="2130837510" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="processbar" static="true" transient="false" type="int" type-generic-aware="int" value="2130837511" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="rfid" static="true" transient="false" type="int" type-generic-aware="int" value="2130837512" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="smartcardpng" static="true" transient="false" type="int" type-generic-aware="int" value="2130837513" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="test1" static="true" transient="false" type="int" type-generic-aware="int" value="2130837514" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="test2" static="true" transient="false" type="int" type-generic-aware="int" value="2130837515" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="thumb" static="true" transient="false" type="int" type-generic-aware="int" value="2130837516" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="thumb2" static="true" transient="false" type="int" type-generic-aware="int" value="2130837517" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="thumb3" static="true" transient="false" type="int" type-generic-aware="int" value="2130837518" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.id" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.id" static="false" type="com.TFHKA.a01_demo.R.id" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="button_changemode" static="true" transient="false" type="int" type-generic-aware="int" value="2131296261" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="button_continue" static="true" transient="false" type="int" type-generic-aware="int" value="2131296267" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="button_exit" static="true" transient="false" type="int" type-generic-aware="int" value="2131296268" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="button_feed" static="true" transient="false" type="int" type-generic-aware="int" value="2131296265" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="button_print" static="true" transient="false" type="int" type-generic-aware="int" value="2131296264" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="button_stop" static="true" transient="false" type="int" type-generic-aware="int" value="2131296266" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="container_printer" static="true" transient="false" type="int" type-generic-aware="int" value="2131296256" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="desctxt" static="true" transient="false" type="int" type-generic-aware="int" value="2131296269" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="seekBar1" static="true" transient="false" type="int" type-generic-aware="int" value="2131296262" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="spinner1" static="true" transient="false" type="int" type-generic-aware="int" value="2131296263" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="textView_contrast" static="true" transient="false" type="int" type-generic-aware="int" value="2131296258" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="textView_dotwidth" static="true" transient="false" type="int" type-generic-aware="int" value="2131296257" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="textView_mode" static="true" transient="false" type="int" type-generic-aware="int" value="2131296260" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="textView_paperstatus" static="true" transient="false" type="int" type-generic-aware="int" value="2131296259" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="titlebutton" static="true" transient="false" type="int" type-generic-aware="int" value="2131296270" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.layout" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.layout" static="false" type="com.TFHKA.a01_demo.R.layout" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="printer_main" static="true" transient="false" type="int" type-generic-aware="int" value="2130903040" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.menu" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.menu" static="false" type="com.TFHKA.a01_demo.R.menu" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="main" static="true" transient="false" type="int" type-generic-aware="int" value="2131230720" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="R.string" static="true" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="R.string" static="false" type="com.TFHKA.a01_demo.R.string" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="ATR" static="true" transient="false" type="int" type-generic-aware="int" value="2131099683" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="AclasDemo" static="true" transient="false" type="int" type-generic-aware="int" value="2131099708" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="AddMoney" static="true" transient="false" type="int" type-generic-aware="int" value="2131099673" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BlockTest" static="true" transient="false" type="int" type-generic-aware="int" value="2131099678" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CardInfo" static="true" transient="false" type="int" type-generic-aware="int" value="2131099675" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="CardNo" static="true" transient="false" type="int" type-generic-aware="int" value="2131099671" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="Continue" static="true" transient="false" type="int" type-generic-aware="int" value="2131099670" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DecMoney" static="true" transient="false" type="int" type-generic-aware="int" value="2131099674" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="Description" static="true" transient="false" type="int" type-generic-aware="int" value="2131099687" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DrawerOpen" static="true" transient="false" type="int" type-generic-aware="int" value="2131099701" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="Exit" static="true" transient="false" type="int" type-generic-aware="int" value="2131099676" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="InitCard" static="true" transient="false" type="int" type-generic-aware="int" value="2131099672" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="KM3Demo" static="true" transient="false" type="int" type-generic-aware="int" value="2131099702" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="Num_100" static="true" transient="false" type="int" type-generic-aware="int" value="2131099677" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="Print" static="true" transient="false" type="int" type-generic-aware="int" value="2131099688" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="SendMsg" static="true" transient="false" type="int" type-generic-aware="int" value="2131099649" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="Title" static="true" transient="false" type="int" type-generic-aware="int" value="2131099686" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="USBRFID" static="true" transient="false" type="int" type-generic-aware="int" value="2131099703" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="about" static="true" transient="false" type="int" type-generic-aware="int" value="2131099653" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="action_settings" static="true" transient="false" type="int" type-generic-aware="int" value="2131099684" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="app_name" static="true" transient="false" type="int" type-generic-aware="int" value="2131099690" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="changemode" static="true" transient="false" type="int" type-generic-aware="int" value="2131099655" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="clear" static="true" transient="false" type="int" type-generic-aware="int" value="2131099650" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="contrast" static="true" transient="false" type="int" type-generic-aware="int" value="2131099669" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="dotmode" static="true" transient="false" type="int" type-generic-aware="int" value="2131099668" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="dotwidth" static="true" transient="false" type="int" type-generic-aware="int" value="2131099656" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="epsonmode" static="true" transient="false" type="int" type-generic-aware="int" value="2131099667" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="exit" static="true" transient="false" type="int" type-generic-aware="int" value="2131099659" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="feed" static="true" transient="false" type="int" type-generic-aware="int" value="2131099657" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="getdotwidth" static="true" transient="false" type="int" type-generic-aware="int" value="2131099662" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="getpaperstatus" static="true" transient="false" type="int" type-generic-aware="int" value="2131099663" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="havepaper" static="true" transient="false" type="int" type-generic-aware="int" value="2131099666" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="hdq_tab" static="true" transient="false" type="int" type-generic-aware="int" value="2131099696" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="hdqdisconnect" static="true" transient="false" type="int" type-generic-aware="int" value="2131099648" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="hello" static="true" transient="false" type="int" type-generic-aware="int" value="2131099689" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="hello_world" static="true" transient="false" type="int" type-generic-aware="int" value="2131099685" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="lcd_tab" static="true" transient="false" type="int" type-generic-aware="int" value="2131099694" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="macerr" static="true" transient="false" type="int" type-generic-aware="int" value="2131099654" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="magcard" static="true" transient="false" type="int" type-generic-aware="int" value="2131099652" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="magcard_tab" static="true" transient="false" type="int" type-generic-aware="int" value="2131099695" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="mode" static="true" transient="false" type="int" type-generic-aware="int" value="2131099661" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="nopaper" static="true" transient="false" type="int" type-generic-aware="int" value="2131099665" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="paperstatus" static="true" transient="false" type="int" type-generic-aware="int" value="2131099664" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="print" static="true" transient="false" type="int" type-generic-aware="int" value="2131099660" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="printer_tab" static="true" transient="false" type="int" type-generic-aware="int" value="2131099691" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="rfid_tab" static="true" transient="false" type="int" type-generic-aware="int" value="2131099692" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="scale" static="true" transient="false" type="int" type-generic-aware="int" value="2131099679" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="scale_tare" static="true" transient="false" type="int" type-generic-aware="int" value="2131099681" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="scale_weight" static="true" transient="false" type="int" type-generic-aware="int" value="2131099680" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="scale_zero" static="true" transient="false" type="int" type-generic-aware="int" value="2131099682" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="senddot" static="true" transient="false" type="int" type-generic-aware="int" value="2131099651" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="serial_show" static="true" transient="false" type="int" type-generic-aware="int" value="2131099698" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="serial_tab" static="true" transient="false" type="int" type-generic-aware="int" value="2131099697" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="serialerr" static="true" transient="false" type="int" type-generic-aware="int" value="2131099699" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="serialread" static="true" transient="false" type="int" type-generic-aware="int" value="2131099700" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="smartcard_tab" static="true" transient="false" type="int" type-generic-aware="int" value="2131099693" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="stop" static="true" transient="false" type="int" type-generic-aware="int" value="2131099658" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="usbrfid_show" static="true" transient="false" type="int" type-generic-aware="int" value="2131099704" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="usbrfiderr" static="true" transient="false" type="int" type-generic-aware="int" value="2131099705" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="usbrfidok" static="true" transient="false" type="int" type-generic-aware="int" value="2131099706" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="usbrfidread" static="true" transient="false" type="int" type-generic-aware="int" value="2131099707" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+</api>

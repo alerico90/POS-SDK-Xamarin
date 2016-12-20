@@ -1,0 +1,11 @@
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01_LIB\bin\Debug\A01_LIB.dll
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01_LIB\bin\Debug\A01_LIB.pdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01_LIB\obj\Debug\A01_LIB.csprojResolveAssemblyReference.cache
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01_LIB\obj\Debug\A01_LIB.dll
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01_LIB\obj\Debug\A01_LIB.pdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01_LIB\bin\Debug\Jars\a01.jar
+C:\Users\aangulo\Desktop\A01\A01\A01_LIB\bin\Debug\A01_LIB.dll
+C:\Users\aangulo\Desktop\A01\A01\A01_LIB\bin\Debug\A01_LIB.pdb
+C:\Users\aangulo\Desktop\A01\A01\A01_LIB\obj\Debug\A01_LIB.csprojResolveAssemblyReference.cache
+C:\Users\aangulo\Desktop\A01\A01\A01_LIB\obj\Debug\A01_LIB.dll
+C:\Users\aangulo\Desktop\A01\A01\A01_LIB\obj\Debug\A01_LIB.pdb

@@ -1,0 +1,103 @@
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\A01.dll
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\A01.pdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\A01.A01.apk
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\A01.A01-Signed.apk
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\A01_LIB.dll
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\A01_LIB.pdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\A01_LIB.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\A01.csprojResolveAssemblyReference.cache
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\A01.dll
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\A01.pdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\bin\A01.A01.apk
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\res\layout\main.xml
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\res\values\strings.xml
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\res\drawable\icon.png
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\R.cs.flag
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\uploadflags.txt
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\A01.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\Java.Interop.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\Mono.Android.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\Mono.Android.Export.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\mscorlib.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\System.Core.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\System.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\System.Xml.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\A01.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\A01_LIB.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\Mono.Android.Export.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\System.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\aangulo\documents\visual studio 2015\Projects\A01\A01\obj\Debug\A01.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01.dll
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01.pdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01.A01.apk
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01.A01-Signed.apk
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01_LIB.dll
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01_LIB.pdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01_LIB.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\A01.dll
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\A01.pdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\bin\A01.A01.apk
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\layout\main.xml
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\values\strings.xml
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\icon.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\display.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\drawer.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\ibutton.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\ic_launcher.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\magcard.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\printer.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\rfid.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\drawable\serialport.png
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\R.cs.flag
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\uploadflags.txt
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\Java.Interop.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\Mono.Android.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\Mono.Android.Export.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\mscorlib.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\System.Core.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\System.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\System.Xml.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\A01.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\A01_LIB.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\Mono.Android.Export.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\System.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\A01.csprojResolveAssemblyReference.cache
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\layout\printer_activity.xml
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\layout\display_activity.xml
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\layout\magcard_activity.xml
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\layout\ibutton_activity.xml
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\layout\serial_port_activity.xml
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\res\layout\drawer_activity.xml
+C:\Users\aangulo\Desktop\A01\A01\A01\obj\Debug\A01.dll.mdb
+C:\Users\aangulo\Desktop\A01\A01\A01\bin\Debug\A01.dll.mdb
